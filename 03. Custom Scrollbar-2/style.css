@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(58, 57, 57);
+}
+body {
+  background: linear-gradient(to right, rgb(64, 115, 175),rgb(224, 201, 236)); /* Replace #ffffff with the desired ending color */
+}
+section{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  width: 700px;
+  background: linear-gradient(to left, rgb(64, 115, 175), #ffffff); /* Replace #ffffff with the desired ending color */
+  padding: 20px;
+  margin: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 28px;
+
+  /* Glassmorphism effect */
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed for the effect */
+  border-radius: 10px; /* Rounded corners for the glass effect */
+  
+  /* Box shadow for background shadow */
+  box-shadow: 0 8px 32px 0 rgba(50, 50, 54, 0.77); /* Adjust the shadow values as needed */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3c3d3d, #a59dd4);
+  border-radius: 100px;
+}
