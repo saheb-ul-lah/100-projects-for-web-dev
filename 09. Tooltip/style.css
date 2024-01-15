@@ -47,3 +47,8 @@ body {
   border-color: #000 #0000 #0000 #0000;
 }
 
+#container:hover #tooltip-content {
+  top: -130%;
+  visibility: visible;
+  opacity: 1;
+}
